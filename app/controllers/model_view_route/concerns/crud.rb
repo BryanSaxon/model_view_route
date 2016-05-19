@@ -1,5 +1,3 @@
-require 'active_support/concern'
-
 module ModelViewRoute
   module Concerns
     module CRUD extend ::ActiveSupport::Concern
@@ -86,7 +84,7 @@ module ModelViewRoute
       end
 
       def route_name
-        self.class.name.gsub('Controller', '').singularize.underscore.gsub('/', '_')
+        self.class.name.gsub('Controller', '').singularize.underscore.tr('/', '_')
       end
 
       def success_message(action)
