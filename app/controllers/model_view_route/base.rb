@@ -1,5 +1,5 @@
 module ModelViewRoute
-  class BaseController < ::ActionController::Base
+  class Base < ::ActionController::Base
     include ModelViewRoute::Concerns::CRUD
 
     before_action :initalize_instance_variable,
