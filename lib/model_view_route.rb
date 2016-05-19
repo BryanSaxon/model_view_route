@@ -1,5 +1,5 @@
-require "model_view_route/version"
+require 'model_view_route/version'
+require 'engine'
 
 module ModelViewRoute
-  # Your code goes here...
 end

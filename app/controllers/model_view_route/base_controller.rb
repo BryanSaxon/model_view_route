@@ -1,6 +1,6 @@
 module ModelViewRoute
-  class BaseController < ::ApplicationController
-    include CRUDConcern
+  class BaseController < ::ActionController::Base
+    include ModelViewRoute::Concerns::CRUD
 
     before_action :initalize_instance_variable,
       only: [:index, :show, :new, :create, :edit, :update, :destroy]
