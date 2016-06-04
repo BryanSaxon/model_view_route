@@ -8,6 +8,42 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
+### TODO:
+
+- [x] Basic CRUD operations with empty controller.
+
+- [x] Utilize application layout.
+
+- [x] Automatically define instance variables based on model.
+
+- [x] Handle namespaced routes.
+
+- [ ] Handle JSON requests.
+
+- [ ] Handle nested attributes for permitted params.
+
+- [ ] Allow for archive instead of delete.
+
+- [ ] Automatically eager load.
+
+- [ ] Include customizable flash message helper.
+
+- [ ] Utilize decorators.
+
+- [ ] Utilize facades.
+
+- [ ] Internationalization for generated responses.
+
+- [ ] Create initializer for settings (default to decorators / facades, etc.)
+
+- [ ] Create base test file and test heavily.
+
+- [ ] Exception handling.
+
+- [ ] Eliminate need for controller file.
+
+- [ ] Create rails generators (test files, facades, etc.).
+
 ## Installation
 
 Add this line to your application's Gemfile:
