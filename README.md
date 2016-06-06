@@ -32,6 +32,8 @@ TODO: Delete this and the text above, and describe your gem
 
 - [ ] Utilize facades.
 
+- [ ] Handle authentication.
+
 - [ ] Internationalization for generated responses.
 
 - [ ] Create initializer for settings (default to decorators / facades, etc.)
